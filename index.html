@@ -1,0 +1,350 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+   
+    <nav class="navbar navbar-inverse navbar-fixed-top ">
+        <div class="container-fluid">
+            <!-- navbar-header -->
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navList">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Brand</a>
+            </div>
+            <!-- navbar-header end -->
+            <div class="collapse navbar-collapse" id="navList">
+                <!-- nav navbar-nav -->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Link1</a></li>
+                <li><a href="#">Link2</a></li>
+                <li><a href="#">Link3</a></li>
+                <li><a href="#">Link4</a></li>
+                <li><a href="#">Link5</a></li>
+            </ul>
+            <!-- nav navbar-nav end --> 
+            </div>
+           
+        </div>
+    </nav>
+<button class="btn btn-success" data-toggle="collapse" data-target="#article1">點擊觀看文章</button>
+
+    <article class="collapse in " id="article1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium nisi officia tempore, ipsa praesentium ea assumenda quia cupiditate explicabo! Iure, laudantium dolores aliquid esse quis magni! Quisquam officia, at inventore est! Deleniti eligendi quibusdam, impedit nihil voluptate rem, modi, maxime ut ex asperiores a illum vitae repudiandae accusamus eum. Autem, veritatis cupiditate pariatur amet nemo tenetur rem repudiandae est sint, exercitationem nisi libero hic architecto provident repellendus corrupti dolorum! Laboriosam iusto, consequuntur maxime quod similique nihil commodi, dolores omnis quas consectetur, qui, voluptate tenetur quam unde laudantium quaerat facilis labore! Cumque nulla quam, aliquid nesciunt inventore laudantium voluptatum fuga at sed deleniti ea soluta voluptatibus aut harum dolorem dolore quibusdam maxime quis facilis nam eligendi. Sapiente eligendi dignissimos consequatur. Minus amet suscipit similique, quae laboriosam maxime numquam, blanditiis quidem odio molestias quam aspernatur vitae non assumenda ea ut recusandae! Voluptatum facere, tempore, suscipit distinctio illo accusantium perferendis ea. Quis ea iste earum laboriosam adipisci dicta nulla a rem quasi recusandae ullam neque, reprehenderit maiores, molestiae officia voluptate corporis eos dolorem esse amet, cum impedit mollitia doloribus asperiores. Nemo, quam ea quaerat atque officia id obcaecati nihil dolorum veritatis temporibus assumenda vel? Sapiente nisi, magni nobis rem maxime laudantium doloremque quasi.</article>
+
+<div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger progress-bar-striped active " style="width: 80%">
+                         <span class="sr-only">已完成40%</span>
+                         <span class="glyphicon glyphicon-grain">
+                             
+                         </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <button class="btn btn-primary" data-toggle="modal" data-target="#modal1">點擊以後彈出視窗</button>
+    <!-- Modal -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="">帳號</label>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>表單輸入</h1>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input class="form-control" type="text" placeholder="Email ...">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-addon">Email</span>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>按鈕</h1>
+        <a href="#" class="btn btn-primary">primary</a>
+        <a href="#" class="btn btn-default">default</a>
+        <a href="#" class="btn btn-success">success</a>
+        <a href="#" class="btn btn-warning">warning</a>
+        <a href="#" class="btn btn-danger">danger</a>
+        <a href="#" class="btn btn-info">info</a>
+
+        <a href="#" class="btn btn-primary btn-lg">btn-lg</a>
+        <a href="#" class="btn btn-primary btn-md">btn-md</a>
+        <a href="#" class="btn btn-primary btn-sm">btn-sm</a>
+        <a href="#" class="btn btn-primary btn-xs">btn-xs</a>
+
+        <button class="btn btn-success">新訊息 <span class="badge">12</span></button>
+        <h1>按鈕組</h1>
+        <div class="btn-group">
+            <a href="#" class="btn btn-primary">primary</a>
+            <a href="#" class="btn btn-default">default</a>
+            <a href="#" class="btn btn-success">success</a>
+            <a href="#" class="btn btn-warning">warning</a>
+            <a href="#" class="btn btn-danger">danger</a>
+            <a href="#" class="btn btn-info">info</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>表格</h1>
+        <table class="table table-bordered table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>產品名稱</th>
+                    <th>價格</th>
+                    <th>備註</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Item1</td>
+                    <td>600</td>
+                    <td>備註</td>
+                </tr>
+                <tr>
+                    <td>Item2</td>
+                    <td>600</td>
+                    <td>備註</td>
+                </tr>
+                <tr>
+                    <td>Item3</td>
+                    <td>600</td>
+                    <td>備註</td>
+                </tr>
+                <tr>
+                    <td>Item4</td>
+                    <td>600</td>
+                    <td>備註</td>
+                </tr>
+                <tr>
+                    <td>Item5</td>
+                    <td>600</td>
+                    <td>備註</td>
+                </tr>
+                <tr>
+                    <td>Item6</td>
+                    <td>600</td>
+                    <td>備註</td>
+                </tr>
+                <tr>
+                    <td>Item7</td>
+                    <td>600</td>
+                    <td>備註</td>
+                </tr>
+                <tr>
+                    <td>Item8</td>
+                    <td>600</td>
+                    <td>備註</td>
+                </tr>
+                <tr>
+                    <td>Item9</td>
+                    <td>600</td>
+                    <td>備註</td>
+                </tr>
+                <tr>
+                    <td>Item10</td>
+                    <td>600</td>
+                    <td>備註</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+
+    <h1>導覽</h1>
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Category</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+    <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Category</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+    <!--麵包屑導覽開始-->
+    <ol class="breadcrumb">
+        <li><a href="#">連結 1</a></li>
+        <li><a href="#">連結 2</a></li>
+        <li class="active">連結 3 active狀態</li>
+    </ol>
+    <!--麵包屑導覽結束-->
+
+
+    <!-- bs3carousel -->
+    <!--輪播開始-->
+    <div id="slide1" class="carousel slide" data-ride="carousel" data-interval="10000">
+        <div class="carousel-inner" role="listbox">
+            <!--輪播圖片或內容-->
+            <div class="item active" id="item1">
+                <h1>第一頁</h1>
+            </div>
+            <div class="item" id="item2">
+                <h1>第二頁</h1>
+            </div>
+            <div class="item" id="item3">
+                <h1>第三頁</h1>
+            </div>
+        </div>
+        <!--上一頁 下一頁 按鈕-->
+        <div class="control-btn">
+            <a href="#slide1" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a href="#slide1" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <!--小圓點換頁-->
+        <ol class="carousel-indicators">
+            <li data-target="#slide1" data-slide-to="0" class="active"></li>
+            <li data-target="#slide1" data-slide-to="1"></li>
+            <li data-target="#slide1" data-slide-to="2"></li>
+        </ol>
+    </div>
+    <!--輪播結尾-->
+
+
+
+
+    <header class="jumbotron">
+        <div class="container">
+            <h1>Header</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Container裡面的jumbotron</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>縮圖</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#" class="thumbnail">
+                    <img src="https://unsplash.it/800/800?image=700" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <!-- col -->
+            <div class="col-md-3 col-sm-6 project">
+                <h1>第1個col</h1>
+                <div class="icon">
+                    <i class="fa fa-5x fa-meetup" aria-hidden="true"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae magnam dolorum dolores asperiores commodi, nostrum tempore accusamus aliquam quae nobis eligendi possimus quis magni ea harum recusandae, quibusdam aut minima voluptatibus a quisquam? Minus quidem consequuntur, quod veritatis maxime ullam aut assumenda, natus veniam maiores accusamus commodi sunt provident excepturi.</p>
+            </div>
+            <!-- col end -->
+            <!-- col -->
+            <div class="col-md-3 col-sm-6 project">
+                <h1>第2個col</h1>
+                <div class="icon">
+                    <i class="fa fa-5x fa-meetup" aria-hidden="true"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae magnam dolorum dolores asperiores commodi, nostrum tempore accusamus aliquam quae nobis eligendi possimus quis magni ea harum recusandae, quibusdam aut minima voluptatibus a quisquam? Minus quidem consequuntur, quod veritatis maxime ullam aut assumenda, natus veniam maiores accusamus commodi sunt provident excepturi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod maxime alias doloribus nam reprehenderit voluptates delectus eius, deleniti provident iste! Facere minus, nemo saepe velit delectus quidem fuga dolor veniam! </p>
+            </div>
+            <!-- col end -->
+            <!-- col -->
+            <div class="col-md-3 col-sm-6 project">
+                <h1>第3個col</h1>
+                <div class="icon">
+                    <i class="fa fa-5x fa-meetup" aria-hidden="true"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae magnam dolorum dolores asperiores commodi, nostrum tempore accusamus aliquam quae nobis eligendi possimus quis magni ea harum recusandae, quibusdam aut minima voluptatibus a quisquam? Minus quidem consequuntur, quod veritatis maxime ullam aut assumenda, natus veniam maiores accusamus commodi sunt provident excepturi.</p>
+            </div>
+            <!-- col end -->
+            <!-- col -->
+            <div class="col-md-3 col-sm-6 project">
+                <h1>第4個col</h1>
+                <div class="icon">
+                    <i class="fa fa-5x fa-meetup" aria-hidden="true"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae magnam dolorum dolores asperiores commodi, nostrum tempore accusamus aliquam quae nobis eligendi possimus quis magni ea harum recusandae, quibusdam aut minima voluptatibus a quisquam? Minus quidem consequuntur, quod veritatis maxime ullam aut assumenda, natus veniam maiores accusamus commodi sunt provident excepturi.</p>
+            </div>
+            <!-- col end -->
+            <div class="clearfix"></div>
+            <!-- col -->
+            <div class="col-md-3 col-sm-6 project">
+                <h1>第5個col</h1>
+                <div class="icon">
+                    <i class="fa fa-5x fa-meetup" aria-hidden="true"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae magnam dolorum dolores asperiores commodi, nostrum tempore accusamus aliquam quae nobis eligendi possimus quis magni ea harum recusandae, quibusdam aut minima voluptatibus a quisquam? Minus quidem consequuntur, quod veritatis maxime ullam aut assumenda, natus veniam maiores accusamus commodi sunt provident excepturi.</p>
+            </div>
+            <!-- col end -->
+            <!-- col -->
+            <div class="col-md-3 col-sm-6 project">
+                <h1>第6個col</h1>
+                <div class="icon">
+                    <i class="fa fa-5x fa-meetup" aria-hidden="true"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae magnam dolorum dolores asperiores commodi, nostrum tempore accusamus aliquam quae nobis eligendi possimus quis magni ea harum recusandae, quibusdam aut minima voluptatibus a quisquam? Minus quidem consequuntur, quod veritatis maxime ullam aut assumenda, natus veniam maiores accusamus commodi sunt provident excepturi.</p>
+            </div>
+            <!-- col end -->
+        </div>
+        <!-- row end -->
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h1>Offset</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda mollitia dignissimos quo deserunt ducimus dolorem iste nam, est sequi culpa quos debitis neque quibusdam minus laborum at minima earum suscipit aperiam! Quas sit facilis eligendi ab vero obcaecati atque, numquam ratione iure non! Vero sunt sequi voluptatum. Id ducimus perferendis eaque magni. Temporibus alias quos est, explicabo corrupti dolore doloribus debitis aperiam modi libero. Laudantium optio veniam tenetur reprehenderit maiores? Quasi fugit enim quod necessitatibus asperiores maiores dolor alias aperiam, minus! Fugiat sapiente, odit soluta, assumenda ipsam doloremque at id est quasi dolores veritatis, animi nulla maiores. Porro, quo perspiciatis.</p>
+            </div>
+        </div>
+        <!-- row end -->
+    </div>
+</body>
+
+</html>
